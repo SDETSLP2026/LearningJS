@@ -1,10 +1,14 @@
-import { Car } from "./P050_CarClass";
+import { Car } from "./P050_CarClass.js";
 
 
 
 export class Audi extends Car
 {
-      autoGearShift(){
+    price(){
+        console.log("Audi price.....60L");
+    }
+    
+    autoGearShift(){
         console.log("Audi.....autoGearShift()");
     }
 }

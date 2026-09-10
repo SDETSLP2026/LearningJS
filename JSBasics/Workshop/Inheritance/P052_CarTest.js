@@ -9,6 +9,7 @@ c1.refuel();        //Individual
 c1.start();         //Individual
 c1.stop();          //Individual
 c1.breakFeature();  //Inherited
+c1.price();         //Individual
 
 console.log("----- Child Object -----");
 let bmw1 = new BMW();
@@ -17,6 +18,7 @@ bmw1.refuel();      //Inherited
 bmw1.start();       //Inherited
 bmw1.stop();        //Inherited
 bmw1.breakFeature(); //Inherited
+bmw1.price();        //Overridden-Inherited
 
 console.log("------------------------");
 let audi1 = new Audi();
@@ -25,5 +27,6 @@ audi1.refuel();         //Inherited
 audi1.start();          //Inherited
 audi1.stop();           //Inherited
 audi1.breakFeature();   //Inherited
+audi1.price();          //Overridden-Inherited
 
 
