@@ -113,8 +113,8 @@ class Child extends Parent
 }
 
 //Object
-let p1=new Parent();
-p1.color();//blue
+let p1 = new Parent();
+p1.color();//Blue...
 
-let c1=new Child();
-c1.color();//Red
+let c1 = new Child();
+c1.color();//Red...
