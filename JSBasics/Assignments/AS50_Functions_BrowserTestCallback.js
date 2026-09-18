@@ -9,3 +9,21 @@ Requirements:
     • Pass the browser name and test result to the callback.
     • Display the result.
 */
+
+
+function runBrowserTest(browserName, callBackFun){
+    
+    // simulating browser test
+    let testResult = true;
+
+    //pass the browser name and test result to the callback
+    callBackFun(browserName, testResult);
+}
+
+function displayResults(browserName, testResult){
+    console.log("These tests are executed on " + browserName + " browser.");
+    console.log("Test Result:", testResult ? "PASS" : "FAIL");
+}
+
+// Calling the function
+runBrowserTest("Chrome", displayResults);

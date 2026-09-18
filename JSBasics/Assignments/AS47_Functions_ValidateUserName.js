@@ -7,3 +7,21 @@ Rules:
 • Return true if valid.
 • Return false otherwise.
 */
+
+/**
+ * 
+ * @param {string} username 
+ * @returns 
+ */
+//Define function
+function validateUsername(username){
+    if(username != "" && username.length >= 5){
+        return true;
+    } else {
+        return false;
+    }
+}
+
+//Call function
+let result = validateUsername("Admin");
+console.log(result);

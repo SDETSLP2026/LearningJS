@@ -14,3 +14,15 @@ Requirements:
 • Pass a callback function to forEach().
 • Do not use a traditional for loop.
 */
+
+const browsers = ["Chromium", "Firefox", "WebKit"];
+
+browsers.forEach(function(browser){
+    console.log(`Executing test on ${browser}`);
+});
+
+/*
+Executing test on Chromium
+Executing test on Firefox
+Executing test on WebKit
+*/
