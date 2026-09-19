@@ -13,6 +13,16 @@ console.log("-------------------------------------");
 
 //CRUD Operations - Create, Retrieve, Update, Delete
 
+/*
+Unshift & Shift methods deals with first element operations.
+Push & Pop methods deals with last element operations.
+
+Unshift() - First Element add
+Push() - Last Element add
+Shift() - First Element remove
+Pop() - Last Element remove
+*/
+
 //Create OR Insertion methods
 
 //push():Appends new elements to the end of an array, and returns the new length of the array.
